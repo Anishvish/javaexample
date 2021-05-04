@@ -8,6 +8,13 @@ public class Widening {
 		float f = a;
 
 		long l = a;
+		
+		Package p = Package.getPackage("java.lang");
+		
+		System.out.println(p.getName());
+		System.out.println(p.getImplementationTitle());
+
+		
 		System.out.println("int a = " + a);
 
 		System.out.println("integer to float = " + f);
